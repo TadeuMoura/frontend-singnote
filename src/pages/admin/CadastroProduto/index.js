@@ -1,4 +1,4 @@
-import './produto.scss'
+import './index.scss'
 import AbaLateralADM from '../../../components/adm/aba-lateral-adm/index.js'
 import Cabecalho from '../../../components/adm/cabecalho-adm/index.js'
 
@@ -20,7 +20,7 @@ export default function CadastrarProduto() {
                         <div className="caixa-de-texto-div-1"><label className="titulo-caixa-de-texto"> Produto </label><input type="text" className="caixa-de-texto"/></div>
                         <div className="caixa-de-texto-div-1"><label className="titulo-caixa-de-texto"> Modelo </label><input type="text" className="caixa-de-texto"/></div>
                         
-                        <div className="caixa-de-texto-div-1">
+                        <div className="caixa-de-texto-select-div-1">
                             <label className="titulo-caixa-de-texto"> Categorias </label>
                             <select name='categoria' className="caixa-de-texto">
                                 <option value=''> </option>
@@ -32,7 +32,7 @@ export default function CadastrarProduto() {
                                 <option value='Acessorios'> Acessórios </option>
                             </select>
                         </div>
-                        <div className="caixa-de-texto-div-1">
+                        <div className="caixa-de-texto-select-div-1">
                             <label className="titulo-caixa-de-texto"> Tipo </label>
                             <select name='categoria' className="caixa-de-texto">
                                 <option value=''> </option>
@@ -54,8 +54,8 @@ export default function CadastrarProduto() {
                         <div className="caixa-de-texto-grande-div-1"><label className="titulo-caixa-de-texto-grande"> Especificações Técnicas </label><textarea className="caixa-de-texto-grande"/></div>
                         
                         <div className='container-divs-menores'>
-                        <div className="caixa-de-texto-div-1"><label className="titulo-caixa-de-texto"> No estoque </label><input type="text" className="caixa-de-texto-pequena"/></div>
-                        <div className="caixa-de-texto-div-1"><label className="titulo-caixa-de-texto"> Marca </label><input type="text" className="caixa-de-texto-pequena"/></div>
+                        <div className="caixa-de-texto-menor-div-1"><label className="titulo-caixa-de-texto"> No estoque </label><input type="text" className="caixa-de-texto-pequena"/></div>
+                        <div className="caixa-de-texto-menor-div-1"><label className="titulo-caixa-de-texto"> Marca </label><input type="text" className="caixa-de-texto-pequena"/></div>
                         </div>
 
                         <div className="caixa-de-texto-div-1"><label className="titulo-caixa-de-texto"> Preço </label><input type="text" className="caixa-de-texto-pequena"/></div>

@@ -1,9 +1,9 @@
-import './pedido.scss'
+import './index.scss'
 import AbaLateralADM from '../../../components/adm/aba-lateral-adm'
 import Cabecalho from '../../../components/adm/cabecalho-adm'
 
 
-export default function pagePedidos () {
+export default function PagePedidos () {
 
 
 

@@ -3,9 +3,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
  
-import CadastrarProduto from "./pages/admin/CadastroProduto/produto.js";
-import PageHome from "./pages/admin/home/homeADM";
-import PagePedidos from "./pages/admin/pedidos/pedido";
+import CadastrarProduto from "./pages/admin/CadastroProduto/index.js";
+import PageHome from "./pages/admin/home/index.js";
+import PagePedidos from "./pages/admin/pedidos/index.js"
 
 
 
