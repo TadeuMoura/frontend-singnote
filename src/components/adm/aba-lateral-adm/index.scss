@@ -1,0 +1,45 @@
+* {
+    text-decoration: none;
+}
+
+.aba-lateral {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15vw;
+
+    background-color: #55F27F;
+    height: 99vh;
+
+.opcoes {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+
+    margin-top: 20vh;
+}
+
+a {
+    width: 100%;
+}
+.icone-opcoes{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:8vh;
+}
+
+.icone-opcoes:hover{
+    background-color: #084D6E;
+}
+
+.nome-icones{
+    font-size: 35;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+}
