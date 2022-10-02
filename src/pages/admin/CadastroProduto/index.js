@@ -8,7 +8,7 @@ export default function CadastrarProduto() {
     
     <AbaLateralADM/>
 
-    <div> {/*Começo da página*/} 
+    <div className='parte1'> {/*Começo da página*/} 
         <Cabecalho/>
         <div className="container-do-cadastro"> {/*Container do cadastro*/}
             <div className="parte-cadastro"> {/*Começo da parte do cadastro*/}
