@@ -5,7 +5,7 @@ export default function AbaLateralUSU() {
 
 return(
 
-<div className="aba-lateral"> {/*Começo da aba lateral*/} 
+<div className="aba-lateral-usu"> {/*Começo da aba lateral*/} 
     <div className="icone-opcoes-usu"><p className="nome-icones">Voltar</p></div> 
         <div className="opcoes-usu"> {/*Começo das opções*/}
             <Link className="icone-opcoes-usu"><img src="/image/casa-usu.png" alt="opcao-usu"/></Link> 

@@ -1,0 +1,58 @@
+.page-consulta-usu {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+
+}
+
+.aba-lateral-usu{
+    position: fixed;
+}
+
+.cabecalho-usu{
+    width: 900px;
+}
+
+.elemento-cabecalho{
+    width: 100%;
+    border: green solid 1px;
+}
+
+.elementos-consulta-usu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding-left: 100px;
+    border: red solid 1px;
+    align-items: center;
+}
+
+.elementos-pesquisa-usu {
+    display: flex;
+    margin-top: 4em;
+    width: 70%;
+    
+}
+
+.input-pesquisa-usu {
+    width: 83%;
+    border: none;
+    border-radius: 0.8rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 14px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.cards-produto-usu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    margin-top: 4em;
+    
+    width: 80%;
+    
+}
