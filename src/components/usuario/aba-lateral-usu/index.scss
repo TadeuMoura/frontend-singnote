@@ -2,6 +2,20 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: 'inter-font';
+    src: url('../../../assets/fonts/inter-font.ttf');
+}
+
+.imagem-aba-usu{
+    height: 40px;
+    opacity: 0.5;
+}
+
+.imagem-aba-usu:hover{
+    opacity: 1;
+}
+
 .aba-lateral-usu {
     display:flex;
     flex-direction: column;
@@ -26,19 +40,19 @@
     flex-direction: row;
     align-items: center;
     height:8vh;
-    border: red solid 1px;
 }
 
-.img-icones-usu{
-    
-}
 
 .nome-icones{
     font-size: 15px;
     color: #084D6E;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: Arial, Helvetica, sans-;
+    cursor: pointer;
 }
 
-
+.nome-icones:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    color: #00aeff;
+}
 }
