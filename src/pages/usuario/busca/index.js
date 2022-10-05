@@ -13,7 +13,7 @@ export default function BuscaUsuario () {
                 </div>
                 <div className='pesquisa-e-busca'>
                     <input className='input-pesquisa-usu' type="search" placeholder='Buscar por nome' ></input>
-                    <button className='btn-buscar'>Buscar</button>
+                    <button className='botao-buscar-usu'>Buscar</button>
                 </div>
                 <div className='area-da-consulta-usu'>
                     <div className='categoria-e-tipo'>
@@ -49,10 +49,15 @@ export default function BuscaUsuario () {
                             <span className='resultado-valor'> Bateria</span></p>
                             <p>produtos: 
                             <span className='resultado-valor'> 10</span></p></div>
+
+                            <hr/>
                         <div className='elementos-pesquisa-usu'>  
                             
+                        
                         </div>
+                        
                             <div className='cards-produto-usu'>
+                            
                                 <CaixaProdutoUsuario/>
                                 <CaixaProdutoUsuario/>
                                 <CaixaProdutoUsuario/>
